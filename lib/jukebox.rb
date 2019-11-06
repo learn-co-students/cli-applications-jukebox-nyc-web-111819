@@ -55,13 +55,13 @@ def run(songs)
   while exiter != "exit"
   if user_input == "help"
     help
-     exiter = "exit"
+     
   elsif user_input == "list"
     list(songs)
-    exiter = "exit"
+    
   elsif user_input == "play"
     play(songs)
-    exiter = "exit"
+  
   elsif user_input == "exit"
     exit_jukebox
     exiter = user_input
